@@ -1,0 +1,32 @@
+/* CSS Variable Declaration */
+
+:root {
+  --font-color-dark: #333333;
+  --font-color-white: #333333;
+  --background-color: #333644;
+  --font-style: 'Roboto', sans-serif;
+}
+
+/* Navigation Start */
+
+#navbar .custom_nav {
+  background-color: var(--background-color);
+  color: var(--font-color-white);
+}
+
+#navbar .custom_brand {
+  margin-left: 250px;
+  margin-right: 0px;
+}
+
+#navbar .custom_nav_item {
+  margin-left: 0px;
+  margin-right: 250px;
+  color: var(--font-color-white);
+  text-transform: uppercase;
+  font-family: var(--font-style);
+}
+
+#navbar .nav-item {
+  margin-left: 30px;
+}
